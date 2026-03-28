@@ -1,5 +1,19 @@
 [
   {
+    "eventid": "cowrie.login.failed",
+    "src_ip": "1.2.3.4",
+    "username": "root",
+    "password": "pass1",
+    "timestamp": "2024-01-01T00:00:00"
+  },
+  {
+    "eventid": "cowrie.login.failed",
+    "src_ip": "1.2.3.4",
+    "username": "admin",
+    "password": "pass2",
+    "timestamp": "2024-01-01T00:00:01"
+  },
+  {
     "eventid": "cowrie.login.success",
     "src_ip": "1.2.3.4",
     "username": "admin",

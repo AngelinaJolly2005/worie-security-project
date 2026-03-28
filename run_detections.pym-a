@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+import time
+import json
+from detections.brute_force_detector import BruteForceDetector
+from detections.command_detector import CommandDetector
+from datetime import datetime
+
+def save_detection(detection, output_file="/var/log/cowrie/detections.json"):
+    with open(output_file, 'a') as f:
+        json.dump(detection, f)
+        f.write('\n')
+    print(f"📝 Detection logged: {detection['type']} from {detection.get('src_ip', 'unknown')}")
+
+def main():
+    print("🔍 Starting Cowrie Detection Layer...")
+    brute_detector = BruteForceDetector()
+    cmd_detector = CommandDetector()
+    
+    detection_file = "/var/log/cowrie/detections.json"
+    
+    while True:
+        print(f"\n--- Detection Scan at {datetime.now()} ---")
+        
+        # Run brute force detection
+        brute_detections = brute_detector.check_logs()
+        for detection in brute_detections:
+            save_detection(detection, detection_file)
+        
+        # Run command detection
+        cmd_detections = cmd_detector.detect_malicious_commands()
+        for detection in cmd_detections:
+            save_detection(detection, detection_file)
+        
+        time.sleep(30)  # Scan every 30 seconds
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,5 @@
+cowrie-env/
+var/log/
+*.log
+*.pid
+etc/ssh_host_*

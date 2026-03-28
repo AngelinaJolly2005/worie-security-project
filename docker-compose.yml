@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  cowrie:
+    image: cowrie/cowrie:latest
+    container_name: cowrie-honeypot
+    ports:
+      - "2222:2222"  # SSH
+      - "23:23"      # Telnet
+    volumes:
+      - ./var/log/cowrie:/cowrie/var/log
+      - ./cowrie.cfg:/cowrie/etc/cowrie.cfg
+    restart: unless-stopped
+    networks:
+      - honeypot-net
+
+networks:
+  honeypot-net:
+    driver: bridge
