@@ -19,5 +19,12 @@
     "username": "admin",
     "password": "password123",
     "timestamp": "2024-05-20T12:00:00Z"
+  },
+  {
+    "eventid": "cowrie.login.success",
+    "src_ip": "1.2.3.4",
+    "username": "admin",
+    "password": "password123",
+    "timestamp": "2024-05-20T12:00:00Z"
   }
 ]
