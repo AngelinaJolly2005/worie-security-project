@@ -1,0 +1,15 @@
+{
+  "total_logs": 4,
+  "timestamp": "2026-03-28T21:27:59.989282",
+  "stats": {
+    "login_attempts": 2,
+    "successful_logins": 2,
+    "commands_executed": 0,
+    "bruteforce_ips": {
+      "1.2.3.4": 2
+    },
+    "top_commands": {},
+    "unique_ips": 1,
+    "bruteforce_threshold": {}
+  }
+}

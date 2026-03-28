@@ -1,0 +1,42 @@
+{
+  "logs": [
+    {
+      "eventid": "cowrie.login.success",
+      "src_ip": "1.2.3.4",
+      "username": "admin",
+      "password": "password123",
+      "timestamp": "2024-05-20T12:00:00Z",
+      "processed_at": "2026-03-28T21:27:59.989156",
+      "line_number": 1
+    },
+    {
+      "eventid": "cowrie.login.failed",
+      "src_ip": "1.2.3.4",
+      "username": "root",
+      "password": "pass1",
+      "timestamp": "2024-01-01T00:00:00",
+      "processed_at": "2026-03-28T21:27:59.989204",
+      "line_number": 2
+    },
+    {
+      "eventid": "cowrie.login.failed",
+      "src_ip": "1.2.3.4",
+      "username": "admin",
+      "password": "pass2",
+      "timestamp": "2024-01-01T00:00:01",
+      "processed_at": "2026-03-28T21:27:59.989216",
+      "line_number": 3
+    },
+    {
+      "eventid": "cowrie.login.success",
+      "src_ip": "1.2.3.4",
+      "username": "admin",
+      "password": "password123",
+      "timestamp": "2024-05-20T12:00:00Z",
+      "processed_at": "2026-03-28T21:27:59.989223",
+      "line_number": 4
+    }
+  ],
+  "last_updated": "2026-03-28T21:27:59.989385",
+  "total_entries": 4
+}
