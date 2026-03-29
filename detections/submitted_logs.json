@@ -4,18 +4,6 @@
       "log": {
         "eventid": "cowrie.login.failed",
         "src_ip": "203.0.113.10",
-        "username": "pwd",
-        "password": "password",
-        "timestamp": "2026-03-29T12:02:57.955394",
-        "submitted_at": "2026-03-29T12:02:57.955413",
-        "source": "manual_submission"
-      },
-      "submitted_at": "2026-03-29T12:02:57.955413"
-    },
-    {
-      "log": {
-        "eventid": "cowrie.login.failed",
-        "src_ip": "203.0.113.10",
         "username": "env",
         "password": "password",
         "timestamp": "2026-03-29T12:02:59.591128",
@@ -599,6 +587,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T22:01:07.676699"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "185.199.108.153",
+        "username": "\"echo",
+        "password": "'* * * * * /tmp/backdoor' >> /etc/crontab\"",
+        "timestamp": "2026-03-29T22:01:27.545653",
+        "submitted_at": "2026-03-29T22:01:27.545674",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T22:01:27.545674"
     }
   ]
 }
