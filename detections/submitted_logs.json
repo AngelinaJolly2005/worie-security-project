@@ -538,6 +538,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T14:41:16.009759"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "8.8.8.8",
+        "username": "root",
+        "password": "password3",
+        "timestamp": "2026-03-29T14:41:17.413354",
+        "submitted_at": "2026-03-29T14:41:17.413370",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T14:41:17.413370"
     }
   ]
 }
