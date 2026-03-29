@@ -3,18 +3,6 @@
     {
       "log": {
         "eventid": "cowrie.login.failed",
-        "src_ip": "23.23.23.23",
-        "username": "passwderror",
-        "password": "password",
-        "timestamp": "2026-03-29T11:33:38.898027",
-        "submitted_at": "2026-03-29T11:33:38.905373",
-        "source": "manual_submission"
-      },
-      "submitted_at": "2026-03-29T11:33:38.905373"
-    },
-    {
-      "log": {
-        "eventid": "cowrie.login.failed",
         "src_ip": "ssh",
         "username": "bruteforce",
         "password": "password",
@@ -599,6 +587,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T17:28:21.044604"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "8.8.8.8",
+        "username": "root",
+        "password": "password3",
+        "timestamp": "2026-03-29T17:28:22.278216",
+        "submitted_at": "2026-03-29T17:28:22.278236",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T17:28:22.278236"
     }
   ]
 }
