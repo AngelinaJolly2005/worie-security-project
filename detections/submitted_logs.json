@@ -3,18 +3,6 @@
     {
       "log": {
         "eventid": "cowrie.login.failed",
-        "src_ip": "username",
-        "username": "root",
-        "password": "password",
-        "timestamp": "2026-03-29T10:28:10.604471",
-        "submitted_at": "2026-03-29T10:28:10.604494",
-        "source": "manual_submission"
-      },
-      "submitted_at": "2026-03-29T10:28:10.604494"
-    },
-    {
-      "log": {
-        "eventid": "cowrie.login.failed",
         "src_ip": "5.5.5.5",
         "username": "admin",
         "password": "final_test_123",
@@ -599,6 +587,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T17:28:00.552313"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "167.99.200.10",
+        "username": "\"curl",
+        "password": "ransomware.exe && ./ransomware.exe --encrypt /home\"",
+        "timestamp": "2026-03-29T17:28:02.655253",
+        "submitted_at": "2026-03-29T17:28:02.655271",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T17:28:02.655271"
     }
   ]
 }
