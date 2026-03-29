@@ -58,6 +58,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T10:34:42.884762"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "Type",
+        "username": "12.12.12.12",
+        "password": "student success_test",
+        "timestamp": "2026-03-29T10:55:03.151630",
+        "submitted_at": "2026-03-29T10:55:03.151673",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T10:55:03.151673"
     }
   ]
 }
