@@ -466,6 +466,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T12:05:20.368840"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "185.199.108.153",
+        "username": "\"@reboot",
+        "password": "/root/persist.sh\"lateral movement",
+        "timestamp": "2026-03-29T12:06:21.025140",
+        "submitted_at": "2026-03-29T12:06:21.515218",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T12:06:21.515218"
     }
   ]
 }
