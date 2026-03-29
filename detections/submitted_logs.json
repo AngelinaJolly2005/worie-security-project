@@ -4,18 +4,6 @@
       "log": {
         "eventid": "cowrie.login.failed",
         "src_ip": "203.0.113.10",
-        "username": "\"ls",
-        "password": "-la /root\"",
-        "timestamp": "2026-03-29T12:02:56.124591",
-        "submitted_at": "2026-03-29T12:02:56.124607",
-        "source": "manual_submission"
-      },
-      "submitted_at": "2026-03-29T12:02:56.124607"
-    },
-    {
-      "log": {
-        "eventid": "cowrie.login.failed",
-        "src_ip": "203.0.113.10",
         "username": "pwd",
         "password": "password",
         "timestamp": "2026-03-29T12:02:57.955394",
@@ -599,6 +587,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T21:39:39.995941"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "persistence",
+        "username": "root",
+        "password": "password",
+        "timestamp": "2026-03-29T22:01:07.675569",
+        "submitted_at": "2026-03-29T22:01:07.676699",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T22:01:07.676699"
     }
   ]
 }
