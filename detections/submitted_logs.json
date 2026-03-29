@@ -178,6 +178,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-03-29T12:01:36.688886"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "8.8.8.8",
+        "username": "admin",
+        "password": "hacker123successful login",
+        "timestamp": "2026-03-29T12:02:23.011111",
+        "submitted_at": "2026-03-29T12:02:23.011162",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-03-29T12:02:23.011162"
     }
   ]
 }
