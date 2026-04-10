@@ -6,18 +6,6 @@
         "src_ip": "12.12.12.12",
         "username": "passwd",
         "password": "password",
-        "timestamp": "2026-03-29T20:38:08.206623",
-        "submitted_at": "2026-03-29T20:38:08.206667",
-        "source": "manual_submission"
-      },
-      "submitted_at": "2026-03-29T20:38:08.206667"
-    },
-    {
-      "log": {
-        "eventid": "cowrie.login.failed",
-        "src_ip": "12.12.12.12",
-        "username": "passwd",
-        "password": "password",
         "timestamp": "2026-03-29T20:48:29.812325",
         "submitted_at": "2026-03-29T20:48:29.822731",
         "source": "manual_submission"
@@ -599,6 +587,18 @@
         "source": "manual_submission"
       },
       "submitted_at": "2026-04-10T10:09:20.081117"
+    },
+    {
+      "log": {
+        "eventid": "cowrie.login.failed",
+        "src_ip": "167.99.200.10",
+        "username": "\"curl",
+        "password": "ransomware.exe && ./ransomware.exe --encrypt /home\"",
+        "timestamp": "2026-04-10T10:09:46.918600",
+        "submitted_at": "2026-04-10T10:09:46.918624",
+        "source": "manual_submission"
+      },
+      "submitted_at": "2026-04-10T10:09:46.918624"
     }
   ]
 }
